@@ -1,0 +1,27 @@
+{
+  "name": "mailayre",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "prod": "vite --mode production",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^7.4.1",
+    "mitt": "^3.0.0",
+    "particles.vue3": "^2.x",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-plugin-router": "^5.0.4",
+    "cross-env": "^7.0.3",
+    "sass": "^1.52.0",
+    "typescript": "^4.7.2",
+    "vite": "^2.9.5",
+    "vite-plugin-html": "^3.2.0",
+    "vue-tsc": "^0.35.0"
+  }
+}
